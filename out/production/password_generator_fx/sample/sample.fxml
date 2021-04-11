@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" text="Ile znaków:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="numberOfChars" layoutX="13.0" layoutY="35.0" />
+        <CheckBox fx:id="type1" layoutX="14.0" layoutY="70.0" mnemonicParsing="false" text="małe litery" />
+        <CheckBox fx:id="type2" layoutX="14.0" layoutY="94.0" mnemonicParsing="false" text="wielkie litery" />
+        <CheckBox fx:id="type3" layoutX="14.0" layoutY="121.0" mnemonicParsing="false" text="cyfry" />
+        <Label fx:id="password" layoutX="14.0" layoutY="158.0" text="Hasło" textFill="#2c2b2b">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="btn" layoutX="205.0" layoutY="240.0" mnemonicParsing="false" onAction="#pressButton" prefHeight="21.0" prefWidth="87.0" text="Generuj" />
+    </children>
+</AnchorPane>
